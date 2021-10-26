@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.container{
+    height: 500px;
+    background: url('../img/Strawberry.png') no-repeat;
+    background-size: 700px 600px;
+    background-color: hsl(0, 10%, 97%);
+    background-position: right;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 50px;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list li a{
+    color: black;
+    font-family: 'Domine', serif;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+}
+
+.list li a:hover{
+    color: rgba(182, 30, 30, 0.87);
+}
+
+.block{
+    width: 350px;
+}    
+   
+
+main{
+    margin-left: 50px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1{
+    font-size: 55px;
+    font-family: 'Domine', serif;
+}
+
+.block__post{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    cursor: pointer;
+}
+
+section{
+    background-color: rgb(35, 192, 231);
+}
+
+h2{
+    font-family: 'Gluten', cursive;
+    font-size: 70px;
+    color: white;
+}
+
+.foot{
+    position: relative;
+}
+
+.foot__par{
+    width: 450px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+}
+
+.foot__par-style{
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+    color: white;
+    padding-top: 15px;
+}
